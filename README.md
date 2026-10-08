@@ -11,16 +11,15 @@ I contribute fixes to [DeerFlow](https://github.com/bytedance/deer-flow). Exampl
 - [Reject blank Codex CLI tokens](https://github.com/bytedance/deer-flow/pull/5959)
 - [Tag graph runs with the effective model](https://github.com/bytedance/deer-flow/pull/5902)
 
-## Projects
+## Featured projects
 
 | Project | What it does |
 | --- | --- |
 | [SignalForge](https://github.com/xbzz1018/SignalForge) | Research workspace for A-shares and ETFs, with market data, backtests, and checks on generated dashboards. |
 | [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) | Evaluates agent versions with trace inspection, replay, scoring, and release gates. |
-| [LearningLoop](https://github.com/xbzz1018/learningloop) | Builds study plans, schedules FSRS reviews, records model usage, and asks before replacing a plan. |
-| [WorkPilot](https://github.com/xbzz1018/workpilot) | Drafts work reports from source records, links claims to evidence, and requires review before export. |
 | [AgriGraph](https://github.com/xbzz1018/agrigraph) | Answers tomato and rice disease questions using text or image symptoms, graph retrieval, and cited evidence. |
+| [WorkPilot](https://github.com/xbzz1018/workpilot) | Drafts work reports from source records, links claims to evidence, and requires review before export. |
 
-Each project README describes its setup, current scope, and limits.
+[LearningLoop](https://github.com/xbzz1018/learningloop) is a personal learning assistant with study plans, FSRS reviews, approval gates, and model usage records. Each project README covers setup, verification, and limits.
 
 **Tools I use:** Python, TypeScript, FastAPI, Next.js, PostgreSQL, Docker, pytest, and CI.

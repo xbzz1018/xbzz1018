@@ -2,9 +2,20 @@
 
 后端与大模型应用开发，关注模型接入、工具调用、检索与评测。
 
-主要项目是金融研究工作台 SignalForge 和农业知识图谱问答系统 AgriGraph，工程上侧重工具调用、证据引用、任务执行与结果校验。
+## 开源贡献 · DeerFlow
+
+截至 **2026-10-19**，在 [DeerFlow](https://github.com/bytedance/deer-flow) 有 **12 个 PR 已合并**。主要围绕模型适配与消息完整性、工具结果与文件引用链路贡献。
+
+| 方向 | 已合并案例 |
+| --- | --- |
+| 模型适配与消息完整性 | [Codex 工具选择策略 #6898](https://github.com/bytedance/deer-flow/pull/6898) · [MiniMax reasoning_content #6071](https://github.com/bytedance/deer-flow/pull/6071) · [Claude thinking budget #6060](https://github.com/bytedance/deer-flow/pull/6060) |
+| 工具结果与文件引用 | [保留完整的远程 Artifact URL #6574](https://github.com/bytedance/deer-flow/pull/6574) |
+
+[查看全部已合并 PR](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
 
 ## 主要项目
+
+主要项目是金融研究工作台 SignalForge 和农业知识图谱问答系统 AgriGraph，工程上侧重工具调用、证据引用、任务执行与结果校验。
 
 | 项目 | 解决的问题 | 工程重点 |
 | --- | --- | --- |
@@ -20,17 +31,6 @@
 | [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) | 为 Agent 版本对比提供冻结评测集、Trace、失败回放和 SHIP / WARN / BLOCK 发布门禁 |
 
 各项目 README 说明运行方式、验证记录与当前限制。
-
-## 开源贡献 · DeerFlow
-
-截至 **2026-10-19**，在 [DeerFlow](https://github.com/bytedance/deer-flow) 有 **12 个 PR 已合并**。主要围绕模型适配与消息完整性、工具结果与文件引用链路贡献。
-
-| 方向 | 已合并案例 |
-| --- | --- |
-| 模型适配与消息完整性 | [Codex 工具选择策略 #6898](https://github.com/bytedance/deer-flow/pull/6898) · [MiniMax reasoning_content #6071](https://github.com/bytedance/deer-flow/pull/6071) · [Claude thinking budget #6060](https://github.com/bytedance/deer-flow/pull/6060) |
-| 工具结果与文件引用 | [保留完整的远程 Artifact URL #6574](https://github.com/bytedance/deer-flow/pull/6574) |
-
-[查看全部已合并 PR](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
 
 ## 技术
 

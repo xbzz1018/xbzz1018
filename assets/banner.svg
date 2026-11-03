@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="260" viewBox="0 0 1120 260" role="img" aria-labelledby="title desc">
+  <title id="title">kuku / xbzz1018 — Backend and AI Applications</title>
+  <desc id="desc">A personal engineering portfolio focused on agents, retrieval and reliable workflows.</desc>
+  <rect width="1120" height="260" rx="20" fill="#f3f7fa"/>
+  <path d="M46 54V206" stroke="#087e6b" stroke-width="4"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="72" y="68" font-size="13" font-weight="600" letter-spacing="3" fill="#087e6b">BACKEND / AI APPLICATIONS</text>
+    <text x="70" y="137" font-size="48" font-weight="700" fill="#162b3b">kuku <tspan font-size="25" font-weight="400" fill="#536b7c">/ xbzz1018</tspan></text>
+    <text x="73" y="183" font-size="18" fill="#536b7c">Agents · Retrieval · Durable workflows</text>
+    <text x="73" y="215" font-size="12" letter-spacing="2" fill="#536b7c">BUILD / TRACE / VERIFY</text>
+    <g transform="translate(725 56)">
+      <path d="M27 31H110V116H205" fill="none" stroke="#cfdee7" stroke-width="2"/>
+      <path d="M110 31H205" fill="none" stroke="#cfdee7" stroke-width="2"/>
+      <rect x="0" y="0" width="136" height="61" rx="12" fill="#ffffff" stroke="#cfdee7"/>
+      <rect x="168" y="0" width="136" height="61" rx="12" fill="#ffffff" stroke="#cfdee7"/>
+      <rect x="168" y="85" width="136" height="61" rx="12" fill="#ffffff" stroke="#cfdee7"/>
+      <circle cx="21" cy="30" r="4" fill="#087e6b"/>
+      <circle cx="189" cy="30" r="4" fill="#087e6b"/>
+      <circle cx="189" cy="115" r="4" fill="#087e6b"/>
+      <text x="36" y="36" font-size="16" fill="#162b3b">Tools</text>
+      <text x="204" y="36" font-size="16" fill="#162b3b">Evidence</text>
+      <text x="204" y="121" font-size="16" fill="#162b3b">Checks</text>
+    </g>
+  </g>
+</svg>

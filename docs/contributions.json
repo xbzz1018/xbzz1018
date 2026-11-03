@@ -1,0 +1,108 @@
+{
+  "account": "xbzz1018",
+  "verified_at": "2026-11-03T08:09:29.261165+00:00",
+  "scope": "Merged pull requests authored by xbzz1018 in external public upstream repositories; own repositories excluded",
+  "source": "GitHub search/issues discovery, each pull request verified through repos/{owner}/{repo}/pulls/{number}",
+  "count": 12,
+  "repositories": [
+    "bytedance/deer-flow"
+  ],
+  "pull_requests": [
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 6898,
+      "title": "fix(models): preserve Codex tool_choice in requests",
+      "url": "https://github.com/bytedance/deer-flow/pull/6898",
+      "merged_at": "2026-10-15T01:58:17Z",
+      "merge_commit_sha": "a6b35523628747aa353d4d80804106f783f08115"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 6574,
+      "title": "fix(agents): preserve complete remote artifact URLs",
+      "url": "https://github.com/bytedance/deer-flow/pull/6574",
+      "merged_at": "2026-10-10T02:07:50Z",
+      "merge_commit_sha": "2d55c7587042af075fb33643eb461e25f4922041"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 6071,
+      "title": "fix(models): preserve MiniMax reasoning_content responses",
+      "url": "https://github.com/bytedance/deer-flow/pull/6071",
+      "merged_at": "2026-10-09T08:00:33Z",
+      "merge_commit_sha": "845af593017f88600f92108f2ae52f812d0a30a7"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 6060,
+      "title": "fix(models): validate Claude extended-thinking budgets",
+      "url": "https://github.com/bytedance/deer-flow/pull/6060",
+      "merged_at": "2026-10-08T02:24:16Z",
+      "merge_commit_sha": "340a5b63faf3e539d2cd90653df6ecce062dcade"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 6030,
+      "title": "fix(models): parse numeric MindIE XML tool arguments",
+      "url": "https://github.com/bytedance/deer-flow/pull/6030",
+      "merged_at": "2026-10-06T08:47:22Z",
+      "merge_commit_sha": "d85f5bf6cc832a11b05255186cc04e9b305b985c"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5959,
+      "title": "fix(models): reject blank Codex CLI tokens",
+      "url": "https://github.com/bytedance/deer-flow/pull/5959",
+      "merged_at": "2026-09-28T08:16:15Z",
+      "merge_commit_sha": "f56d276122d99cbf190a22484a981fac7276e69c"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5920,
+      "title": "fix(uploads): reject boolean upload limits",
+      "url": "https://github.com/bytedance/deer-flow/pull/5920",
+      "merged_at": "2026-09-28T07:17:41Z",
+      "merge_commit_sha": "00c35fcce6dc11074d2e42590161ed1bf05d0850"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5915,
+      "title": "fix(uploads): reject NUL characters in upload filenames",
+      "url": "https://github.com/bytedance/deer-flow/pull/5915",
+      "merged_at": "2026-09-27T01:29:30Z",
+      "merge_commit_sha": "9abdbc38708c9cf6bfeb03cb6aabd252cb28df59"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5902,
+      "title": "fix(tracing): tag graph runs with the effective model",
+      "url": "https://github.com/bytedance/deer-flow/pull/5902",
+      "merged_at": "2026-09-27T00:06:04Z",
+      "merge_commit_sha": "e2c5027b0c5e09284bd911360acb67ff5cc97cf2"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5811,
+      "title": "fix(client): exclude prior turns from resumed stream events",
+      "url": "https://github.com/bytedance/deer-flow/pull/5811",
+      "merged_at": "2026-09-24T13:03:07Z",
+      "merge_commit_sha": "29dbce45a12cffe4ce7c395dde6e4b913748596b"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5819,
+      "title": "fix(mcp): resolve generated file paths containing spaces",
+      "url": "https://github.com/bytedance/deer-flow/pull/5819",
+      "merged_at": "2026-09-24T12:13:19Z",
+      "merge_commit_sha": "f83bc05a5f61d7771d15c453fd318c00c3ac97b6"
+    },
+    {
+      "repository": "bytedance/deer-flow",
+      "number": 5654,
+      "title": "docs: clarify upgrade workflow",
+      "url": "https://github.com/bytedance/deer-flow/pull/5654",
+      "merged_at": "2026-09-21T14:03:48Z",
+      "merge_commit_sha": "6fae79047c75789246b08936a0ad3760a98e8d0c"
+    }
+  ]
+}

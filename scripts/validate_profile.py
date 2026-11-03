@@ -18,8 +18,10 @@ for path in [*ROOT.glob("*.md"), *(ROOT / "docs").glob("*.md")]:
         if not target.scheme and not target.netloc and target.path:
             if not (path.parent / unquote(target.path)).exists():
                 errors.append(f"{path.name}: missing link {link}")
-    if "github.com/xbzz1018/membrane-engineering-knowledge-agent" in body:
-        errors.append(f"{path.name}: private project should be a synopsis, without a public link")
+    if any(marker in body for marker in (
+        "membrane-engineering-knowledge-agent", "工程资料智能审查", "Engineering document review",
+    )):
+        errors.append(f"{path.name}: private resume project should not appear on the public profile")
 
 for path in (ROOT / "assets").glob("*.svg"):
     root = ET.parse(path).getroot()

@@ -4,38 +4,74 @@
   <img src="assets/banner.svg" alt="kuku / xbzz1018 — Backend &amp; AI Applications" width="100%">
 </picture>
 
-# Hi, I'm kuku · xbzz1018
+<p align="center">
+  <a href="https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged"><img alt="12 merged upstream PRs, verified November 3, 2026" src="https://img.shields.io/badge/Open_source-12_merged_PRs-087E6B?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
+  <a href="https://github.com/xbzz1018?tab=repositories&amp;type=source"><img alt="Explore public projects" src="https://img.shields.io/badge/Projects-Explore-2563A9?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
+</p>
 
-I build backend and AI applications.
+## Hi, I'm kuku
 
-[中文](README.md) · [Open-source contributions](docs/open-source.md)
+I build backend and AI applications, focusing on Agent tools, retrieval, and reliable task execution.
+
+[Selected projects](#selected-projects) · [Open-source contributions](#open-source-contributions) · [中文](README.md)
 
 ## Selected projects
 
-- **[SignalForge](https://github.com/xbzz1018/SignalForge)** — An AI research workspace for Chinese equities, indices, and ETFs. Connects market data, analysis, backtests, generated dashboards, and delivery checks. TypeScript / Next.js / Python / PostgreSQL / Redis.
-- **[AgriGraph](https://github.com/xbzz1018/agrigraph)** — Evidence-based agricultural QA using text or image symptoms, Elasticsearch retrieval, Neo4j relationships, and citation checks. An independent implementation using public materials.
-- **Engineering document review · private repository** — A personal reproduction of a document review workflow. Retrieval and material Agents gather evidence before a reviewer checks the source documents. Local/Fake business regression and real Temporal development-server recovery tests are recorded; the complete data stack and new strong/light model combination still await validation. Reproduction work is distinguished from historical internship contributions.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
+      <p>Research Chinese equities and ETFs in natural language. Generate dashboards with data sources, backtest records, and build checks.</p>
+      <p>
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
+        <a href="https://github.com/xbzz1018/SignalForge/stargazers"><img alt="SignalForge stars" src="https://img.shields.io/github/stars/xbzz1018/SignalForge?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
+      <p>Answer tomato and rice disease questions using text, image symptoms, and a knowledge graph, with citation checks.</p>
+      <p>
+        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+        <a href="https://github.com/xbzz1018/agrigraph/stargazers"><img alt="AgriGraph stars" src="https://img.shields.io/github/stars/xbzz1018/agrigraph?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
+      <p>Compare Agent versions through evaluations, traces, and failure replay. Control releases with SHIP / WARN / BLOCK gates.</p>
+      <p>
+        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+        <a href="https://github.com/xbzz1018/agent-quality-gate/stargazers"><img alt="Agent Quality Harness stars" src="https://img.shields.io/github/stars/xbzz1018/agent-quality-gate?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/workpilot">WorkPilot</a></h3>
+      <p>Turn work records into weekly reports and performance review drafts with evidence references. Export after human approval.</p>
+      <p>
+        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+        <a href="https://github.com/xbzz1018/workpilot/stargazers"><img alt="WorkPilot stars" src="https://img.shields.io/github/stars/xbzz1018/workpilot?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-## Open source
+**[LearningLoop](https://github.com/xbzz1018/learningloop)** · Study plans, daily tasks, and FSRS reviews · [![LearningLoop stars](https://img.shields.io/github/stars/xbzz1018/learningloop?style=flat-square&label=stars&color=2563A9)](https://github.com/xbzz1018/learningloop/stargazers)
 
-**12 merged PRs in [bytedance/deer-flow](https://github.com/bytedance/deer-flow), verified November 3, 2026.** Only authored PRs merged into an external upstream are counted.
+[All public projects](https://github.com/xbzz1018?tab=repositories&type=source)
 
-| Area | Examples |
-| --- | --- |
-| Model adapters and message integrity | [Codex tool_choice #6898](https://github.com/bytedance/deer-flow/pull/6898), [MiniMax reasoning_content #6071](https://github.com/bytedance/deer-flow/pull/6071), [Claude thinking budget #6060](https://github.com/bytedance/deer-flow/pull/6060) |
-| Tool outputs and file references | [Complete artifact URLs #6574](https://github.com/bytedance/deer-flow/pull/6574), [Paths containing spaces #5819](https://github.com/bytedance/deer-flow/pull/5819) |
-| Recovery and tracing | [Resumed stream events #5811](https://github.com/bytedance/deer-flow/pull/5811), [Effective model metadata #5902](https://github.com/bytedance/deer-flow/pull/5902) |
+## Open-source contributions
 
-[Complete contribution record](docs/open-source.md) · [Live upstream query](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
+Contributions to model adapters, tool outputs, and conversation recovery.
 
-## More projects
+| Upstream project | Stars | Merged PRs |
+| --- | --- | ---: |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | [![DeerFlow stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square&label=stars&color=2563A9)](https://github.com/bytedance/deer-flow/stargazers) | [12](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged) |
 
-- **[Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate)** — Frozen datasets, baseline/candidate evaluation, traces, replay, and release gates.
-- **[WorkPilot](https://github.com/xbzz1018/workpilot)** — Work-report drafts with Fact/Evidence references and approval before final export.
-- **[LearningLoop](https://github.com/xbzz1018/learningloop)** — Study plans, daily tasks, FSRS reviews, typed tools, and recovery records.
+- [#6898](https://github.com/bytedance/deer-flow/pull/6898): Preserve `tool_choice` in Codex requests.
+- [#6574](https://github.com/bytedance/deer-flow/pull/6574): Preserve complete URLs for remote artifacts.
+- [#5811](https://github.com/bytedance/deer-flow/pull/5811): Exclude prior turns from resumed stream events.
 
-## Stack
+[Full contribution record](docs/open-source.md) · [Live query](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
 
-Python · TypeScript · FastAPI · LangChain / LangGraph · PostgreSQL · Redis · pgvector · Elasticsearch · React / Next.js · Vue · Docker Compose · pytest · GitHub Actions
-
-Each repository documents its setup, validation scope, failure cases, and current limitations.
+<sub>Verified November 3, 2026. Only authored PRs merged into external upstream repositories are counted.</sub>

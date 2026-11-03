@@ -6,7 +6,7 @@
 
 # Hi, I'm kuku · xbzz1018
 
-I build backend and AI applications, with a focus on tool contracts, evidence retrieval, durable tasks, and evaluation.
+I build backend and AI applications.
 
 [中文](README.md) · [Open-source contributions](docs/open-source.md)
 

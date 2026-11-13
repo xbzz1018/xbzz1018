@@ -58,7 +58,17 @@
 
 **[LearningLoop](https://github.com/xbzz1018/learningloop)** · 学习计划、每日任务与 FSRS 复习 · [![LearningLoop stars](https://img.shields.io/github/stars/xbzz1018/learningloop?style=flat-square&label=stars&color=2563A9)](https://github.com/xbzz1018/learningloop/stargazers)
 
+**[面试练习室](https://github.com/xbzz1018/interview-room)** · 将简历、项目资料与源码证据接入模拟面试、复盘和重答；[来源与修改说明](https://github.com/xbzz1018/interview-room/blob/main/NOTICE.md)。
+
+**[膜构智审](https://github.com/xbzz1018/membrane-engineering-knowledge-agent)** · 工程资料检索、证据冻结、Temporal 审查和人工复核；已验证的演示与完整存储栈的边界见[当前验证](https://github.com/xbzz1018/membrane-engineering-knowledge-agent/blob/main/docs/current-validation.md)。
+
 [全部公开项目](https://github.com/xbzz1018?tab=repositories&type=source)
+
+## 维护重点
+
+持续完善任务恢复、流式协议、证据定位与可复现评测。先用离线回归重现问题，再提交聚焦 PR；保留实际 CI 结果及尚未验收的范围。
+
+[项目投入与验收清单](docs/project-maintenance.md)
 
 ## 开源贡献
 

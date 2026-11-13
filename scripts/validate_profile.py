@@ -8,6 +8,9 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
+public_repositories = set(json.loads(
+    (ROOT / "docs/public-repositories.json").read_text(encoding="utf-8")
+)["repositories"])
 
 for path in [*ROOT.glob("*.md"), *(ROOT / "docs").glob("*.md")]:
     body = path.read_text(encoding="utf-8")
@@ -18,10 +21,9 @@ for path in [*ROOT.glob("*.md"), *(ROOT / "docs").glob("*.md")]:
         if not target.scheme and not target.netloc and target.path:
             if not (path.parent / unquote(target.path)).exists():
                 errors.append(f"{path.name}: missing link {link}")
-    if any(marker in body for marker in (
-        "membrane-engineering-knowledge-agent", "工程资料智能审查", "Engineering document review",
-    )):
-        errors.append(f"{path.name}: private resume project should not appear on the public profile")
+    for repository in re.findall(r"https://github\.com/xbzz1018/([A-Za-z0-9_.-]+)", body):
+        if repository not in public_repositories:
+            errors.append(f"{path.name}: repository has not been verified public: {repository}")
 
 for path in (ROOT / "assets").glob("*.svg"):
     root = ET.parse(path).getroot()

@@ -58,7 +58,17 @@ I build backend and AI applications, focusing on Agent tools, retrieval, and rel
 
 **[LearningLoop](https://github.com/xbzz1018/learningloop)** · Study plans, daily tasks, and FSRS reviews · [![LearningLoop stars](https://img.shields.io/github/stars/xbzz1018/learningloop?style=flat-square&label=stars&color=2563A9)](https://github.com/xbzz1018/learningloop/stargazers)
 
+**[Interview Room](https://github.com/xbzz1018/interview-room)** · Practice, review, and retry technical interviews using resume materials and source evidence; [origin and modifications](https://github.com/xbzz1018/interview-room/blob/main/NOTICE.md).
+
+**[Engineering Document Review](https://github.com/xbzz1018/membrane-engineering-knowledge-agent)** · Document retrieval, frozen evidence, Temporal workflows, and human review; [validation scope](https://github.com/xbzz1018/membrane-engineering-knowledge-agent/blob/main/docs/current-validation.md) distinguishes the verified demo from the full storage stack.
+
 [All public projects](https://github.com/xbzz1018?tab=repositories&type=source)
+
+## Maintenance focus
+
+Improve task recovery, streaming protocols, evidence locations, and reproducible evaluations. Reproduce problems offline before preparing focused PRs, and preserve CI evidence and unverified limitations.
+
+[Project priorities and acceptance criteria](docs/project-maintenance.md)
 
 ## Open-source contributions
 

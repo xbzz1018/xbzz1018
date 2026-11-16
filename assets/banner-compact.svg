@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180" role="img" aria-labelledby="title desc">
+  <title id="title">kukuP / xbzz1018 · LLM Applications and Backend Development</title>
+  <desc id="desc">A compact profile banner for smaller screens.</desc>
+  <rect width="540" height="180" rx="18" fill="#f3f7fa"/>
+  <path d="M20 28V152" stroke="#087e6b" stroke-width="4"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="42" y="42" font-size="13" font-weight="600" letter-spacing="2" fill="#087e6b">LLM APPLICATIONS / BACKEND</text>
+    <text x="40" y="104" font-size="44" font-weight="700" fill="#162b3b">kukuP <tspan font-size="24" font-weight="400" fill="#536b7c">/ xbzz1018</tspan></text>
+    <text x="42" y="143" font-size="18" fill="#536b7c">Agents · RAG · APIs</text>
+  </g>
+</svg>

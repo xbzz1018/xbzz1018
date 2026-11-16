@@ -46,7 +46,18 @@ for row in pulls:
     if row["url"] != f"https://github.com/{row['repository']}/pull/{row['number']}":
         errors.append(f"invalid contribution URL: {row['number']}")
 
-print(f"contributions={len(pulls)}; offline checks do not refresh upstream merge status")
+open_pulls = record.get("open_pull_requests", [])
+all_pulls = [*pulls, *open_pulls]
+if len({(row["repository"], row["number"]) for row in all_pulls}) != len(all_pulls):
+    errors.append("duplicate contribution across merged and open PRs")
+for row in open_pulls:
+    if (row["repository"].lower().startswith("xbzz1018/") or row["state"] != "open"
+            or row["merged_at"] or row["merge_commit_sha"]):
+        errors.append(f"invalid open contribution: {row['number']}")
+    if row["url"] != f"https://github.com/{row['repository']}/pull/{row['number']}":
+        errors.append(f"invalid contribution URL: {row['number']}")
+
+print(f"merged={len(pulls)}; open={len(open_pulls)}; offline checks do not refresh upstream status")
 if errors:
     raise SystemExit("\n".join(errors))
 print("profile-validation-ok")

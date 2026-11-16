@@ -1,85 +1,66 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-compact-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/banner-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
-  <img src="assets/banner.svg" alt="kuku / xbzz1018 — Backend &amp; AI Applications" width="100%">
+  <img src="assets/banner.svg" alt="kukuP / xbzz1018 · 大模型应用与后端开发" width="100%">
 </picture>
 
-<p align="center">
-  <a href="https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged"><img alt="12 merged upstream PRs, verified November 3, 2026" src="https://img.shields.io/badge/Open_source-12_merged_PRs-087E6B?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-  <a href="https://github.com/xbzz1018?tab=repositories&amp;type=source"><img alt="Explore public projects" src="https://img.shields.io/badge/Projects-Explore-2563A9?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-</p>
+大模型应用与后端开发，关注 **Agent 工具调用、RAG 与任务编排**。
 
-## Hi, I'm kuku
+[项目](#项目) · [开源贡献](#开源贡献) · [English](README.en.md)
 
-后端与大模型应用开发，关注 Agent 工具、检索与可靠的任务执行。
-
-[精选项目](#精选项目) · [开源贡献](#开源贡献) · [English](README.en.md)
-
-## 精选项目
+## 项目
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
-      <p>自然语言发起 A 股与 ETF 研究，生成带数据来源、回测记录和构建检查的研究看板。</p>
-      <p>
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/SignalForge/stargazers"><img alt="SignalForge stars" src="https://img.shields.io/github/stars/xbzz1018/SignalForge?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
+      <p>对比 Agent 版本的质量、延迟与成本，提供调用追踪、失败回放和发布门禁。</p>
+      <p><sub>Python · FastAPI · Vue · PostgreSQL</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
-      <p>结合文字、图片症状和知识图谱，回答番茄与水稻病虫害问题，并核验答案引用。</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/agrigraph/stargazers"><img alt="AgriGraph stars" src="https://img.shields.io/github/stars/xbzz1018/agrigraph?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
+      <p>对话查询 A 股与 ETF，回测均线策略，生成研究报告与交互看板。</p>
+      <p><sub>TypeScript · Next.js · FastAPI · TimescaleDB</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
-      <p>对比 Agent 新旧版本，保留评测、Trace 与失败回放，以 SHIP / WARN / BLOCK 控制发布。</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/agent-quality-gate/stargazers"><img alt="Agent Quality Harness stars" src="https://img.shields.io/github/stars/xbzz1018/agent-quality-gate?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
+      <p>结合图像症状与知识图谱检索番茄、水稻病虫害资料，生成带引用的回答。</p>
+      <p><sub>Python · LangGraph · Elasticsearch · Neo4j</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/workpilot">WorkPilot</a></h3>
-      <p>从工作记录提取事实，生成带证据引用的周报与述职草稿，经人工确认后导出。</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/workpilot/stargazers"><img alt="WorkPilot stars" src="https://img.shields.io/github/stars/xbzz1018/workpilot?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <p>将工作记录整理为带来源引用的周报与述职草稿，审阅后导出。</p>
+      <p><sub>Python · FastAPI · LangGraph · SQLite</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/interview-room">面试练习室</a></h3>
+      <p>围绕简历与 JD 模拟面试，逐题复盘并重答练习。</p>
+      <p><sub>TypeScript · React · Electron · SQLite</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/learningloop">LearningLoop</a></h3>
+      <p>把学习目标拆成每日任务，结合 FSRS 复习、练习反馈与定时提醒。</p>
+      <p><sub>Python · FastAPI · FSRS · SQLite</sub></p>
     </td>
   </tr>
 </table>
 
-**[LearningLoop](https://github.com/xbzz1018/learningloop)** · 学习计划、每日任务与 FSRS 复习 · [![LearningLoop stars](https://img.shields.io/github/stars/xbzz1018/learningloop?style=flat-square&label=stars&color=2563A9)](https://github.com/xbzz1018/learningloop/stargazers)
-
-**[面试练习室](https://github.com/xbzz1018/interview-room)** · 将简历、项目资料与源码证据接入模拟面试、复盘和重答；[来源与修改说明](https://github.com/xbzz1018/interview-room/blob/main/NOTICE.md)。
-
-[全部公开项目](https://github.com/xbzz1018?tab=repositories&type=source)
-
-## 维护重点
-
-持续完善任务恢复、流式协议、证据定位与可复现评测。先用离线回归重现问题，再提交聚焦 PR；保留实际 CI 结果及尚未验收的范围。
-
-[项目投入与验收清单](docs/project-maintenance.md)
+[浏览公开仓库](https://github.com/xbzz1018?tab=repositories&amp;type=source)
 
 ## 开源贡献
 
-聚焦模型适配、工具结果交付与会话恢复。
+参与 DeerFlow 的模型适配与工具交付，以及 Cindy 的桌面交互改进。
 
-| 上游项目 | Stars | 已合并 PR |
-| --- | --- | ---: |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | [![DeerFlow stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square&label=stars&color=2563A9)](https://github.com/bytedance/deer-flow/stargazers) | [12](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged) |
+| 项目 / PR | 修改内容 |
+| --- | --- |
+| [DeerFlow #6898](https://github.com/bytedance/deer-flow/pull/6898)<br><sub>已合并</sub> | 保留 Codex 的 `tool_choice` 参数 |
+| [DeerFlow #6574](https://github.com/bytedance/deer-flow/pull/6574)<br><sub>已合并</sub> | 保留远程生成产物的完整 URL |
+| [Cindy #4866](https://github.com/makecindy/cindy/pull/4866)<br><sub>待合并</sub> | 为超出首屏的命令匹配结果增加「显示更多」 |
 
-- [#6898](https://github.com/bytedance/deer-flow/pull/6898)：保留 Codex 请求中的 `tool_choice`。
-- [#6574](https://github.com/bytedance/deer-flow/pull/6574)：保留远程生成产物的完整 URL。
-- [#5811](https://github.com/bytedance/deer-flow/pull/5811)：恢复流排除历史轮次事件。
-
-[完整贡献记录](docs/open-source.md) · [实时查询](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
-
-<sub>贡献统计核验于 2026-11-03，仅包含本人提交并合并至外部上游的 PR。</sub>
+[完整贡献记录](docs/open-source.md) · [查看公开 PR](https://github.com/search?q=author%3Axbzz1018+is%3Apr+is%3Apublic+-user%3Axbzz1018&amp;type=pullrequests)

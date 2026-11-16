@@ -1,87 +1,66 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-compact-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/banner-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
-  <img src="assets/banner.svg" alt="kuku / xbzz1018 — Backend &amp; AI Applications" width="100%">
+  <img src="assets/banner.svg" alt="kukuP / xbzz1018 · LLM Applications &amp; Backend Development" width="100%">
 </picture>
 
-<p align="center">
-  <a href="https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged"><img alt="12 merged upstream PRs, verified November 3, 2026" src="https://img.shields.io/badge/Open_source-12_merged_PRs-087E6B?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-  <a href="https://github.com/xbzz1018?tab=repositories&amp;type=source"><img alt="Explore public projects" src="https://img.shields.io/badge/Projects-Explore-2563A9?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-</p>
+I build LLM applications and backend services, focusing on **Agent tools, RAG and task orchestration**.
 
-## Hi, I'm kuku
+[Projects](#projects) · [Open-source contributions](#open-source-contributions) · [中文](README.md)
 
-I build backend and AI applications, focusing on Agent tools, retrieval, and reliable task execution.
-
-[Selected projects](#selected-projects) · [Open-source contributions](#open-source-contributions) · [中文](README.md)
-
-## Selected projects
+## Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
-      <p>Research Chinese equities and ETFs in natural language. Generate dashboards with data sources, backtest records, and build checks.</p>
-      <p>
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/SignalForge/stargazers"><img alt="SignalForge stars" src="https://img.shields.io/github/stars/xbzz1018/SignalForge?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
+      <p>Compare Agent quality, latency and cost, with call traces, failure replay and release gates.</p>
+      <p><sub>Python · FastAPI · Vue · PostgreSQL</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
-      <p>Answer tomato and rice disease questions using text, image symptoms, and a knowledge graph, with citation checks.</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/agrigraph/stargazers"><img alt="AgriGraph stars" src="https://img.shields.io/github/stars/xbzz1018/agrigraph?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
+      <p>Query Chinese equities and ETFs, backtest moving-average strategies and build research reports and dashboards.</p>
+      <p><sub>TypeScript · Next.js · FastAPI · TimescaleDB</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
-      <p>Compare Agent versions through evaluations, traces, and failure replay. Control releases with SHIP / WARN / BLOCK gates.</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/agent-quality-gate/stargazers"><img alt="Agent Quality Harness stars" src="https://img.shields.io/github/stars/xbzz1018/agent-quality-gate?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
+      <p>Retrieve tomato and rice disease information using image symptoms and a knowledge graph. Answer with citations.</p>
+      <p><sub>Python · LangGraph · Elasticsearch · Neo4j</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/workpilot">WorkPilot</a></h3>
-      <p>Turn work records into weekly reports and performance review drafts with evidence references. Export after human approval.</p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-        <a href="https://github.com/xbzz1018/workpilot/stargazers"><img alt="WorkPilot stars" src="https://img.shields.io/github/stars/xbzz1018/workpilot?style=flat-square&amp;label=stars&amp;color=2563A9"></a>
-      </p>
+      <p>Turn work records into weekly reports and performance review drafts, with source references and review before export.</p>
+      <p><sub>Python · FastAPI · LangGraph · SQLite</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/interview-room">Interview Room</a></h3>
+      <p>Practice interviews from your resume and job description, review each answer and try again.</p>
+      <p><sub>TypeScript · React · Electron · SQLite</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xbzz1018/learningloop">LearningLoop</a></h3>
+      <p>Turn study goals into daily tasks, with FSRS reviews, practice feedback and scheduled reminders.</p>
+      <p><sub>Python · FastAPI · FSRS · SQLite</sub></p>
     </td>
   </tr>
 </table>
 
-**[LearningLoop](https://github.com/xbzz1018/learningloop)** · Study plans, daily tasks, and FSRS reviews · [![LearningLoop stars](https://img.shields.io/github/stars/xbzz1018/learningloop?style=flat-square&label=stars&color=2563A9)](https://github.com/xbzz1018/learningloop/stargazers)
-
-**[Interview Room](https://github.com/xbzz1018/interview-room)** · Practice, review, and retry technical interviews using resume materials and source evidence; [origin and modifications](https://github.com/xbzz1018/interview-room/blob/main/NOTICE.md).
-
-**[Engineering Document Review](https://github.com/xbzz1018/membrane-engineering-knowledge-agent)** · Document retrieval, frozen evidence, Temporal workflows, and human review; [validation scope](https://github.com/xbzz1018/membrane-engineering-knowledge-agent/blob/main/docs/current-validation.md) distinguishes the verified demo from the full storage stack.
-
-[All public projects](https://github.com/xbzz1018?tab=repositories&type=source)
-
-## Maintenance focus
-
-Improve task recovery, streaming protocols, evidence locations, and reproducible evaluations. Reproduce problems offline before preparing focused PRs, and preserve CI evidence and unverified limitations.
-
-[Project priorities and acceptance criteria](docs/project-maintenance.md)
+[Browse public repositories](https://github.com/xbzz1018?tab=repositories&amp;type=source)
 
 ## Open-source contributions
 
-Contributions to model adapters, tool outputs, and conversation recovery.
+Contributions to model adapters and tool outputs in DeerFlow, and desktop interactions in Cindy.
 
-| Upstream project | Stars | Merged PRs |
-| --- | --- | ---: |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | [![DeerFlow stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square&label=stars&color=2563A9)](https://github.com/bytedance/deer-flow/stargazers) | [12](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged) |
+| Project / PR | Change |
+| --- | --- |
+| [DeerFlow #6898](https://github.com/bytedance/deer-flow/pull/6898)<br><sub>Merged</sub> | Preserve Codex `tool_choice` |
+| [DeerFlow #6574](https://github.com/bytedance/deer-flow/pull/6574)<br><sub>Merged</sub> | Preserve complete remote artifact URLs |
+| [Cindy #4866](https://github.com/makecindy/cindy/pull/4866)<br><sub>Open</sub> | Add “Show more” for truncated command results |
 
-- [#6898](https://github.com/bytedance/deer-flow/pull/6898): Preserve `tool_choice` in Codex requests.
-- [#6574](https://github.com/bytedance/deer-flow/pull/6574): Preserve complete URLs for remote artifacts.
-- [#5811](https://github.com/bytedance/deer-flow/pull/5811): Exclude prior turns from resumed stream events.
-
-[Full contribution record](docs/open-source.md) · [Live query](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+author%3Axbzz1018+is%3Amerged)
-
-<sub>Verified November 3, 2026. Only authored PRs merged into external upstream repositories are counted.</sub>
+[Full contribution record](docs/open-source.md) · [View public PRs](https://github.com/search?q=author%3Axbzz1018+is%3Apr+is%3Apublic+-user%3Axbzz1018&amp;type=pullrequests)

@@ -1,7 +1,7 @@
 {
   "account": "xbzz1018",
-  "verified_at": "2026-11-03T08:09:29.261165+00:00",
-  "scope": "Merged pull requests authored by xbzz1018 in external public upstream repositories; own repositories excluded",
+  "verified_at": "2026-11-16",
+  "scope": "Public upstream PRs authored by xbzz1018; count and pull_requests include merged PRs only, with open PRs recorded separately",
   "source": "GitHub search/issues discovery, each pull request verified through repos/{owner}/{repo}/pulls/{number}",
   "count": 12,
   "repositories": [
@@ -103,6 +103,17 @@
       "url": "https://github.com/bytedance/deer-flow/pull/5654",
       "merged_at": "2026-09-21T14:03:48Z",
       "merge_commit_sha": "6fae79047c75789246b08936a0ad3760a98e8d0c"
+    }
+  ],
+  "open_pull_requests": [
+    {
+      "repository": "makecindy/cindy",
+      "number": 4866,
+      "title": "fix(desktop): reveal truncated slash-command results",
+      "url": "https://github.com/makecindy/cindy/pull/4866",
+      "state": "open",
+      "merged_at": null,
+      "merge_commit_sha": null
     }
   ]
 }

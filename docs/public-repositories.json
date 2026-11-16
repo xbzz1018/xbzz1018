@@ -1,13 +1,15 @@
 {
-  "verified_at": "2026-11-13",
-  "note": "GitHub API public source-repository snapshot. Recheck visibility before adding a project; offline validation does not refresh GitHub visibility.",
+  "verified_at": "2026-11-16",
+  "note": "Public repositories verified through the GitHub API; offline validation uses this list.",
   "repositories": [
+    "ModelPort",
     "SignalForge",
     "agent-quality-gate",
     "agrigraph",
+    "cindy",
+    "deer-flow",
     "interview-room",
     "learningloop",
-    "membrane-engineering-knowledge-agent",
     "workpilot",
     "xbzz1018"
   ]

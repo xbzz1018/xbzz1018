@@ -6,40 +6,64 @@
   <img src="assets/banner.svg" alt="kukuP / xbzz1018 · LLM Applications &amp; Backend Development" width="100%">
 </picture>
 
-I build LLM applications and backend services with Python, FastAPI and TypeScript, focusing on **Agent tools, RAG and task orchestration**.
+I build Agent applications and backend services, with a focus on tool calling, retrieval, and task orchestration.
 
-[Projects](#selected-projects) · [Contributions](#open-source-contributions) · [中文](README.md)
+[Portfolio & demos](https://kukup.xbzz.cloud/) · [Open-source contributions](#open-source-contributions) · [中文](README.md)
 
 ## Selected projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agent-quality-gate">Agent Quality Harness</a></h3>
-      <p>Compare Agent quality, latency and cost. Trace calls and replay failed tasks.</p>
-      <p><sub>Python · FastAPI · PostgreSQL</sub></p>
+      <h3>SignalForge</h3>
+      <a href="https://kukup.xbzz.cloud/projects/signalforge">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/signal-home-dark.webp">
+          <img src="assets/projects/signal-home.webp" alt="SignalForge application home" width="100%">
+        </picture>
+      </a>
+      <p>Query market data, backtest strategies, and build interactive dashboards from a research question.</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/signalforge">Try demo</a> · <a href="https://github.com/xbzz1018/SignalForge-Python">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
-      <p>Use image symptoms and a knowledge graph to retrieve crop disease information and answer with citations.</p>
-      <p><sub>Python · LangGraph · Neo4j · Elasticsearch</sub></p>
+      <h3>Interview Room</h3>
+      <a href="https://kukup.xbzz.cloud/projects/interview-room">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/interview-home-dark.webp">
+          <img src="assets/projects/interview-home.webp" alt="Interview Room application home" width="100%">
+        </picture>
+      </a>
+      <p>Practice text-based interviews from role and project materials, then review references and retry each answer.</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/interview-room">Try demo</a> · <a href="https://github.com/xbzz1018/interview-room">Source</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/workpilot">WorkPilot</a></h3>
-      <p>Turn work records into source-linked weekly reports and performance review drafts. Review and export.</p>
-      <p><sub>Python · FastAPI · LangGraph</sub></p>
+      <h3>AgriGraph</h3>
+      <a href="https://kukup.xbzz.cloud/projects/agrigraph">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/agrigraph-home-dark.webp">
+          <img src="assets/projects/agrigraph-home.webp" alt="AgriGraph application home" width="100%">
+        </picture>
+      </a>
+      <p>Investigate crop diseases, follow citations to the source, and explore symptoms and conditions in a graph.</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/agrigraph">Try demo</a> · <a href="https://github.com/xbzz1018/agrigraph">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xbzz1018/SignalForge">SignalForge</a></h3>
-      <p>Query Chinese equities and ETFs, backtest moving-average strategies and build research reports and dashboards.</p>
-      <p><sub>TypeScript · Next.js · FastAPI · TimescaleDB</sub></p>
+      <h3>Agent Quality Harness</h3>
+      <a href="https://kukup.xbzz.cloud/projects/quality-harness">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/quality-home-dark.webp">
+          <img src="assets/projects/quality-home.webp" alt="Agent Quality Harness application home" width="100%">
+        </picture>
+      </a>
+      <p>Compare Agent versions on the same dataset, inspect failed cases, and check the release gate.</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/quality-harness">Try demo</a> · <a href="https://github.com/xbzz1018/agent-quality-gate">Source</a></p>
     </td>
   </tr>
 </table>
 
-More: [Interview Room](https://github.com/xbzz1018/interview-room) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public projects](https://github.com/xbzz1018?tab=repositories&amp;type=source)
+More projects · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## Open-source contributions
 

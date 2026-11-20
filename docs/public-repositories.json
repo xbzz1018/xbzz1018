@@ -1,9 +1,11 @@
 {
   "verified_at": "2026-11-16",
-  "note": "Public repositories verified through the GitHub API; offline validation uses this list.",
+  "note": "Public repositories verified through the GitHub API; offline validation uses this list. SignalForge-Python and SignalForge-Java rechecked on 2026-11-20.",
   "repositories": [
     "ModelPort",
     "SignalForge",
+    "SignalForge-Java",
+    "SignalForge-Python",
     "agent-quality-gate",
     "agrigraph",
     "cindy",

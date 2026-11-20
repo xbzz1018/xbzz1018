@@ -15,55 +15,27 @@ I build Agent applications and backend services, with a focus on tool calling, r
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>SignalForge</h3>
-      <a href="https://kukup.xbzz.cloud/projects/signalforge">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/signal-home-dark.webp">
-          <img src="assets/projects/signal-home.webp" alt="SignalForge application home" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/SignalForge-Python">SignalForge</a></h3>
       <p>Query market data, backtest strategies, and build interactive dashboards from a research question.</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/signalforge">Try demo</a> · <a href="https://github.com/xbzz1018/SignalForge-Python">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Interview Room</h3>
-      <a href="https://kukup.xbzz.cloud/projects/interview-room">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/interview-home-dark.webp">
-          <img src="assets/projects/interview-home.webp" alt="Interview Room application home" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/interview-room">Interview Room</a></h3>
       <p>Practice text-based interviews from role and project materials, then review references and retry each answer.</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/interview-room">Try demo</a> · <a href="https://github.com/xbzz1018/interview-room">Source</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>AgriGraph</h3>
-      <a href="https://kukup.xbzz.cloud/projects/agrigraph">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/agrigraph-home-dark.webp">
-          <img src="assets/projects/agrigraph-home.webp" alt="AgriGraph application home" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
       <p>Investigate crop diseases, follow citations to the source, and explore symptoms and conditions in a graph.</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/agrigraph">Try demo</a> · <a href="https://github.com/xbzz1018/agrigraph">Source</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>DomainSystem</h3>
-      <a href="https://kukup.xbzz.cloud/projects/domain-system">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/domain-graph-dark.webp">
-          <img src="assets/projects/domain-graph.webp" alt="DomainSystem node relationship graph" width="100%">
-        </picture>
-      </a>
       <p>A DNS knowledge graph for domain assets. Java APIs trace domain dependencies, identify potentially affected domains, and return the DNS path behind each result.</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/domain-system">Read the case study</a></p>
     </td>
   </tr>
 </table>
 
-More projects · [Agent Quality Harness](https://kukup.xbzz.cloud/projects/quality-harness) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
+More projects · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## Open-source contributions
 

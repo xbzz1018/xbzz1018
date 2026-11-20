@@ -15,55 +15,27 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>SignalForge</h3>
-      <a href="https://kukup.xbzz.cloud/projects/signalforge">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/signal-home-dark.webp">
-          <img src="assets/projects/signal-home.webp" alt="SignalForge 应用首页" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/SignalForge-Python">SignalForge</a></h3>
       <p>从研究问题出发，查行情、回测策略，生成可复查的交互看板。</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/signalforge">体验演示</a> · <a href="https://github.com/xbzz1018/SignalForge-Python">查看源码</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>面试练习室</h3>
-      <a href="https://kukup.xbzz.cloud/projects/interview-room">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/interview-home-dark.webp">
-          <img src="assets/projects/interview-home.webp" alt="面试练习室 应用首页" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/interview-room">面试练习室</a></h3>
       <p>按岗位和项目材料做文字面试，逐题看参考、重答与复盘。</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/interview-room">体验演示</a> · <a href="https://github.com/xbzz1018/interview-room">查看源码</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>AgriGraph</h3>
-      <a href="https://kukup.xbzz.cloud/projects/agrigraph">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/agrigraph-home-dark.webp">
-          <img src="assets/projects/agrigraph-home.webp" alt="AgriGraph 应用首页" width="100%">
-        </picture>
-      </a>
+      <h3><a href="https://github.com/xbzz1018/agrigraph">AgriGraph</a></h3>
       <p>查作物病害，沿引用回看资料，再用图谱查看症状与发生条件。</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/agrigraph">体验演示</a> · <a href="https://github.com/xbzz1018/agrigraph">查看源码</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>DomainSystem</h3>
-      <a href="https://kukup.xbzz.cloud/projects/domain-system">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/domain-graph-dark.webp">
-          <img src="assets/projects/domain-graph.webp" alt="DomainSystem 节点关联图" width="100%">
-        </picture>
-      </a>
       <p>域名资产与 DNS 知识图谱。通过 Java API 查询域名依赖、反查受影响的域名，并查看每条结果对应的解析路径。</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/domain-system">查看案例与分析样例</a></p>
     </td>
   </tr>
 </table>
 
-更多项目 · [Agent Quality Harness](https://kukup.xbzz.cloud/projects/quality-harness) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
+更多项目 · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## 开源贡献
 

@@ -57,7 +57,7 @@ I build Agent applications and backend services, with a focus on tool calling, r
           <img src="assets/projects/domain-graph.webp" alt="DomainSystem node relationship graph" width="100%">
         </picture>
       </a>
-      <p>I reproduced an open-source domain management system and added Java APIs for dependency paths and reverse DNS impact analysis.</p>
+      <p>A DNS knowledge graph for domain assets. Java APIs trace domain dependencies, identify potentially affected domains, and return the DNS path behind each result.</p>
       <p><a href="https://kukup.xbzz.cloud/projects/domain-system">Read the case study</a></p>
     </td>
   </tr>

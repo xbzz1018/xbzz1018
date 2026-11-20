@@ -57,7 +57,7 @@
           <img src="assets/projects/domain-graph.webp" alt="DomainSystem 节点关联图" width="100%">
         </picture>
       </a>
-      <p>基于开源域名管理系统，复现节点图谱，并新增 Java API 查询依赖路径和 DNS 节点的潜在影响范围。</p>
+      <p>域名资产与 DNS 知识图谱。通过 Java API 查询域名依赖、反查受影响的域名，并查看每条结果对应的解析路径。</p>
       <p><a href="https://kukup.xbzz.cloud/projects/domain-system">查看案例与分析样例</a></p>
     </td>
   </tr>

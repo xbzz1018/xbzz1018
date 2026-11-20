@@ -8,7 +8,7 @@
 
 我做 Agent 应用和后端服务，关注工具调用、检索和任务编排。
 
-[个人网站与交互演示](https://kukup.xbzz.cloud/) · [开源贡献](#开源贡献) · [English](README.en.md)
+**[个人作品集 ↗](https://kukup.xbzz.cloud/)** · [开源贡献](#开源贡献) · [English](README.en.md)
 
 ## 精选项目
 
@@ -50,20 +50,20 @@
       <p><a href="https://kukup.xbzz.cloud/projects/agrigraph">体验演示</a> · <a href="https://github.com/xbzz1018/agrigraph">查看源码</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Agent Quality Harness</h3>
-      <a href="https://kukup.xbzz.cloud/projects/quality-harness">
+      <h3>DomainSystem</h3>
+      <a href="https://kukup.xbzz.cloud/projects/domain-system">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/quality-home-dark.webp">
-          <img src="assets/projects/quality-home.webp" alt="Agent Quality Harness 应用首页" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/domain-graph-dark.webp">
+          <img src="assets/projects/domain-graph.webp" alt="DomainSystem 节点关联图" width="100%">
         </picture>
       </a>
-      <p>用同一份数据集比较两个 Agent 版本，回看失败样例，检查发布门禁。</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/quality-harness">体验演示</a> · <a href="https://github.com/xbzz1018/agent-quality-gate">查看源码</a></p>
+      <p>基于开源域名管理系统，复现节点图谱，并新增 Java API 查询依赖路径和 DNS 节点的潜在影响范围。</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/domain-system">查看案例与分析样例</a></p>
     </td>
   </tr>
 </table>
 
-更多项目 · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
+更多项目 · [Agent Quality Harness](https://kukup.xbzz.cloud/projects/quality-harness) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## 开源贡献
 

@@ -8,7 +8,7 @@
 
 I build Agent applications and backend services, with a focus on tool calling, retrieval, and task orchestration.
 
-[Portfolio & demos](https://kukup.xbzz.cloud/) · [Open-source contributions](#open-source-contributions) · [中文](README.md)
+**[Personal portfolio ↗](https://kukup.xbzz.cloud/)** · [Open-source contributions](#open-source-contributions) · [中文](README.md)
 
 ## Selected projects
 
@@ -50,20 +50,20 @@ I build Agent applications and backend services, with a focus on tool calling, r
       <p><a href="https://kukup.xbzz.cloud/projects/agrigraph">Try demo</a> · <a href="https://github.com/xbzz1018/agrigraph">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Agent Quality Harness</h3>
-      <a href="https://kukup.xbzz.cloud/projects/quality-harness">
+      <h3>DomainSystem</h3>
+      <a href="https://kukup.xbzz.cloud/projects/domain-system">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/quality-home-dark.webp">
-          <img src="assets/projects/quality-home.webp" alt="Agent Quality Harness application home" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="assets/projects/domain-graph-dark.webp">
+          <img src="assets/projects/domain-graph.webp" alt="DomainSystem node relationship graph" width="100%">
         </picture>
       </a>
-      <p>Compare Agent versions on the same dataset, inspect failed cases, and check the release gate.</p>
-      <p><a href="https://kukup.xbzz.cloud/projects/quality-harness">Try demo</a> · <a href="https://github.com/xbzz1018/agent-quality-gate">Source</a></p>
+      <p>I reproduced an open-source domain management system and added Java APIs for dependency paths and reverse DNS impact analysis.</p>
+      <p><a href="https://kukup.xbzz.cloud/projects/domain-system">Read the case study</a></p>
     </td>
   </tr>
 </table>
 
-More projects · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
+More projects · [Agent Quality Harness](https://kukup.xbzz.cloud/projects/quality-harness) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## Open-source contributions
 

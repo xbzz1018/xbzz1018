@@ -39,9 +39,9 @@
 
 ## 开源贡献
 
-| 项目 | 参与内容 |
-| --- | --- |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | 模型调用参数适配与工具产物处理。<br>[#6898](https://github.com/bytedance/deer-flow/pull/6898) 保留 Codex `tool_choice` · [#6574](https://github.com/bytedance/deer-flow/pull/6574) 保留完整产物 URL（已合并） |
-| [Cindy](https://github.com/makecindy/cindy) | 为超出首屏的命令匹配结果增加「显示更多」。<br>[#4866](https://github.com/makecindy/cindy/pull/4866)（待合并） |
+| 项目 | 参与内容 | 状态 |
+| --- | --- | --- |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | 模型调用参数适配与工具产物处理。<br>[#6898](https://github.com/bytedance/deer-flow/pull/6898) 保留 Codex `tool_choice` · [#6574](https://github.com/bytedance/deer-flow/pull/6574) 保留完整产物 URL | 已合并 |
+| [Cindy](https://github.com/makecindy/cindy) | 为超出首屏的命令匹配结果增加「显示更多」。<br>[#4866](https://github.com/makecindy/cindy/pull/4866) | 待合并 |
 
 [完整贡献记录](docs/open-source.md) · [查看公开 PR](https://github.com/search?q=author%3Axbzz1018+is%3Apr+is%3Apublic+-user%3Axbzz1018&amp;type=pullrequests)

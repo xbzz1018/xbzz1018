@@ -39,9 +39,9 @@ More projects · [Agent Quality Harness](https://github.com/xbzz1018/agent-quali
 
 ## Open-source contributions
 
-| Project | Contributions |
-| --- | --- |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | Model parameters and tool outputs.<br>[#6898](https://github.com/bytedance/deer-flow/pull/6898) preserves Codex `tool_choice` · [#6574](https://github.com/bytedance/deer-flow/pull/6574) preserves complete artifact URLs (merged) |
-| [Cindy](https://github.com/makecindy/cindy) | Add “Show more” for command results beyond the first page.<br>[#4866](https://github.com/makecindy/cindy/pull/4866) (open) |
+| Project | Contributions | Status |
+| --- | --- | --- |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | Model parameters and tool outputs.<br>[#6898](https://github.com/bytedance/deer-flow/pull/6898) preserves Codex `tool_choice` · [#6574](https://github.com/bytedance/deer-flow/pull/6574) preserves complete artifact URLs | Merged |
+| [Cindy](https://github.com/makecindy/cindy) | Add “Show more” for command results beyond the first page.<br>[#4866](https://github.com/makecindy/cindy/pull/4866) | Open |
 
 [Full contribution record](docs/open-source.md) · [View public PRs](https://github.com/search?q=author%3Axbzz1018+is%3Apr+is%3Apublic+-user%3Axbzz1018&amp;type=pullrequests)

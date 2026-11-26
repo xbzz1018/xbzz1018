@@ -17,6 +17,7 @@ I build Agent applications and backend services, with a focus on tool calling, r
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/SignalForge-Python">SignalForge</a></h3>
       <p>Query market data, backtest strategies, and build interactive dashboards from a research question.</p>
+      <p>The <a href="https://github.com/xbzz1018/SignalForge-Java">Java / Spring Boot edition</a> compares ETF risk and traces evidence back to filings.</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/interview-room">Interview Room</a></h3>
@@ -35,7 +36,7 @@ I build Agent applications and backend services, with a focus on tool calling, r
   </tr>
 </table>
 
-More projects · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
+More projects · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [All public repositories](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## Open-source contributions
 

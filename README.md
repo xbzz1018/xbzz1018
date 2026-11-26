@@ -17,6 +17,7 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/SignalForge-Python">SignalForge</a></h3>
       <p>从研究问题出发，查行情、回测策略，生成可复查的交互看板。</p>
+      <p><a href="https://github.com/xbzz1018/SignalForge-Java">Java / Spring Boot 版</a>支持 ETF 风险对比与公告证据追溯。</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xbzz1018/interview-room">面试练习室</a></h3>
@@ -35,7 +36,7 @@
   </tr>
 </table>
 
-更多项目 · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [SignalForge Java](https://github.com/xbzz1018/SignalForge-Java) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
+更多项目 · [Agent Quality Harness](https://github.com/xbzz1018/agent-quality-gate) · [WorkPilot](https://github.com/xbzz1018/workpilot) · [LearningLoop](https://github.com/xbzz1018/learningloop) · [全部公开仓库](https://github.com/xbzz1018?tab=repositories&type=source)
 
 ## 开源贡献
 
